@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-cnpm install
-npm run build:docker
+# please make sure you'v already runned dep.sh before
 
-docker build -t zuihou-ui .
+cnpm install --registry=https://registry.npm.taobao.org

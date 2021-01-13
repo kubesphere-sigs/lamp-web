@@ -115,27 +115,9 @@ VUE_APP_DEV_REQUEST_DOMAIN_PREFIX = 'http://127.0.0.1:8760'
 
 ## 安装
 
-```
-npm install --registry=https://registry.npm.taobao.org
+安装所需要的工具：`dep.sh`
 
-上面的命令报错？就逐个试试以下命令：
-
-npm i node-sass --sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
-
-git config --global url."https://".insteadOf git://
-
-npm install chromedriver --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/chromedriver
-
-cnpm install core-js@2.6.9 
-
-还不行？ 就用淘宝镜像吧...
-
-# 安装cnpm
-npm install -g cnpm --registry=https://registry.npm.taobao.org
-
-
-cnpm install --registry=https://registry.npm.taobao.org
-```
+安装依赖：`build.sh`
 
 ### 本地开发环境运行
 
